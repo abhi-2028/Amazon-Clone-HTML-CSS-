@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: border-box; */
+    border: border-box;
 }
 
 .header{
@@ -11,7 +11,7 @@
 }
 
 .nav-bar{
-    height: 65%;
+    height: 67%;
     width: 100%;
     background-color: #131921;
     color: white;
@@ -34,11 +34,6 @@
     height: 50px;
     width: 100%;
     align-items: center;
-}
-
-.nav-options{
-    background-color: #232f3e;
-    height: calc(100% - 67%);
 }
 
 .border{
@@ -124,10 +119,53 @@ span{
 
 /* Box five */
 .nav-cart{
+    height: 100%;
+    width: 4.5rem;
     font-size: 0.9rem;
-    padding-right: 30px;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
 }
 
 .nav-cart i{
     font-size: 1.5rem;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-all{
+    padding-left: 20px;
+}
+
+.panel-ops a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.panel-ops a:hover{
+    text-decoration: underline;
+}
+
+.panel-ops{
+    width: 80%;
+}
+
+.panel-deals a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+.panel-deals a:hover{
+    text-decoration: underline;
 }
